@@ -1,0 +1,39 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  max-width: 300px;
+}
+
+.text {
+  margin-right: 5px;
+}
+
+.btn {
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: 0.8em 1em calc(0.8em + 3px);
+  border-radius: 10px;
+  background: rgb(230, 13, 27);
+  box-shadow: 0 -3px rgb(125, 3, 3) inset;
+  transition: 0.2s;
+  border: none;
+}
+
+.btn:hover {
+  background: rgb(240, 253, 1);
+}
+
+.btn:active {
+  background: rgb(163, 249, 4);
+  box-shadow: 0 3px rgb(233, 142, 14) inset;
+}
+
+.btn:nth-child(2n) {
+  margin: 0 5px;
+}
+
+.btn:first-letter {
+  text-transform: uppercase;
+}

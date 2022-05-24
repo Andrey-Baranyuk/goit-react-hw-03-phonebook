@@ -1,0 +1,36 @@
+.btn {
+  font-weight: 700;
+  color: rgb(1, 1, 1);
+  text-decoration: none;
+  padding: 20px 10px;
+  border-radius: 10px;
+  background: rgb(202, 247, 4);
+  box-shadow: 0 -3px rgb(28, 53, 193) inset;
+  transition: 0.2s;
+  margin: 15px 0;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: rgb(32, 49, 173);
+  color: white;
+}
+
+/* .btn:active {
+  background: rgb(33, 147, 90);
+  box-shadow: 0 3px rgb(33, 147, 90) inset;
+} */
+
+.btn:nth-child(2n) {
+  margin: 0 5px;
+}
+
+.btn:first-letter {
+  text-transform: uppercase;
+}
+
+.input {
+  border-radius: 4px;
+  border: none;
+}
